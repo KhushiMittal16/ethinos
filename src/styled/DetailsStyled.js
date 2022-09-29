@@ -19,7 +19,7 @@ export const DetailCompWrapper = styled.div`
   }
 
   .cardHeading {
-    font-size: ${({ isTablet }) => (isTablet ? "1.85em" : "3.2em")};
+    font-size: ${({ isTablet }) => (isTablet ? "1.85em" : "3.8em")};
     /* color: #222; */
     margin-bottom: 20px;
     font-weight: bolder;

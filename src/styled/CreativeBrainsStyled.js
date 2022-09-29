@@ -6,11 +6,12 @@ export const CreativeBrainWrapper = styled.div`
   }
   .details {
     position: absolute;
-    padding: ${({ isTablet }) => (isTablet ? "5.5em 2em" : "10em 2.4em")};
+    padding: ${({ isTablet }) => (isTablet ? "8em 2em" : "10em 2.4em")};
     top: 0;
     left: 0;
-    bottom: 2em;
-    width: ${({ isMobile }) => (isMobile ? "90%" : "70%")};
+    bottom: 1em;
+    width: ${({ isMobile }) => (isMobile ? "90%" : "65%")};
+    font-weight: bold;
   }
 
   .horLine {
